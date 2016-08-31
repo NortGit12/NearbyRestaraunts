@@ -11,7 +11,6 @@
 		1F48F0A21D772A0B00F7B70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F48F0A01D772A0B00F7B70B /* Main.storyboard */; };
 		1F48F0A41D772A0B00F7B70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F48F0A31D772A0B00F7B70B /* Assets.xcassets */; };
 		1F48F0A71D772A0B00F7B70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F48F0A51D772A0B00F7B70B /* LaunchScreen.storyboard */; };
-		1F48F0AF1D772B1700F7B70B /* NearbyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F48F0AE1D772B1700F7B70B /* NearbyListTableViewController.swift */; };
 		1F48F0B11D772D0900F7B70B /* MapAndListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F48F0B01D772D0900F7B70B /* MapAndListViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +21,6 @@
 		1F48F0A31D772A0B00F7B70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F48F0A61D772A0B00F7B70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F48F0A81D772A0B00F7B70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F48F0AE1D772B1700F7B70B /* NearbyListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyListTableViewController.swift; sourceTree = "<group>"; };
 		1F48F0B01D772D0900F7B70B /* MapAndListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAndListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,14 +55,21 @@
 			isa = PBXGroup;
 			children = (
 				1F48F09C1D772A0B00F7B70B /* AppDelegate.swift */,
-				1F48F0AE1D772B1700F7B70B /* NearbyListTableViewController.swift */,
-				1F48F0B01D772D0900F7B70B /* MapAndListViewController.swift */,
+				1F48F0B21D772E1500F7B70B /* ViewController */,
 				1F48F0A31D772A0B00F7B70B /* Assets.xcassets */,
 				1F48F0A81D772A0B00F7B70B /* Info.plist */,
 				1F48F0A51D772A0B00F7B70B /* LaunchScreen.storyboard */,
 				1F48F0A01D772A0B00F7B70B /* Main.storyboard */,
 			);
 			path = NearbyRestarants;
+			sourceTree = "<group>";
+		};
+		1F48F0B21D772E1500F7B70B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F48F0B01D772D0900F7B70B /* MapAndListViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F48F0B11D772D0900F7B70B /* MapAndListViewController.swift in Sources */,
-				1F48F0AF1D772B1700F7B70B /* NearbyListTableViewController.swift in Sources */,
 				1F48F09D1D772A0B00F7B70B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
